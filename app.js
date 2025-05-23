@@ -14,7 +14,7 @@ Agora, você precisa criar uma função que recebe esses valores como entrada e 
     }
     console.log(calcularCustoViagem(1800,50,2.5,90))
 */
-    
+    // Versao autor
 
     function calcularCustoViagem(distancia, eficiencia, precoGasolina, velocidadeMedia) {
         let tempoViagem = (document.getElementById("distancia").value /document.getElementById("velocidadeMedia").value);
@@ -26,6 +26,5 @@ Agora, você precisa criar uma função que recebe esses valores como entrada e 
         let resultado1 = (`O tempo da viagem foi: ${tempoViagem} horas`);
         let resultado2 = (` e custou: R$ ${custoTotal} `)
         resultado = document.getElementById("h1").innerHTML = resultado1 + resultado2;
-        return resultado;
-        }
+        return resultado;       }
 
